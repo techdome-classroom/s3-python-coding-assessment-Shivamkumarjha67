@@ -17,14 +17,14 @@ class Solution(object):
 
         return len(stack) == 0
     
-    def check(self, stack, c):
-        if stack[-1] == '(' and c == ')':
+    def check(self, stack, p):
+        if stack[-1] == '(' and p == ')':
             stack.pop()
             return True
-        elif stack[-1] == '[' and c == ']':
+        elif stack[-1] == '[' and p == ']':
             stack.pop()
             return True
-        elif stack[-1] == '{' and c == '}':
+        elif stack[-1] == '{' and p == '}':
             stack.pop()
             return True
 

@@ -26,5 +26,3 @@ class Solution(object):
 
         total += last
         return total
-
-

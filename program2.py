@@ -18,7 +18,7 @@ class Solution(object):
         }
 
         itr = len(s)
-        last = roman_map[s[size-1]]
+        last = roman_map[s[itr-1]]
         total = 0
 
         for i in range(n-1):

@@ -4,7 +4,7 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
-        if not s:  # If the string is empty, return 0
+        if not s:
             return 0
         
         roman_map = {

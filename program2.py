@@ -17,8 +17,8 @@ class Solution(object):
             'M': 1000
         }
 
-        n = len(s)
-        last = roman_map[s[n-1]]
+        size = len(s)
+        last = roman_map[s[size-1]]
         total = 0
 
         for i in range(n-1):

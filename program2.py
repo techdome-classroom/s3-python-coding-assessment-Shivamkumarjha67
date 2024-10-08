@@ -19,13 +19,13 @@ class Solution(object):
 
         itr = len(s)
         last = roman_map[s[itr-1]]
-        total = 0
+        count = 0
 
         for i in range(itr-1):
             if roman_map[s[i]] < roman_map[s[i+1]]:
-                total -= roman_map[s[i]]
+                count -= roman_map[s[i]]
             else:
-                total += roman_map[s[i]]
+                count += roman_map[s[i]]
 
-        total += last
-        return total
+        count += last
+        return count

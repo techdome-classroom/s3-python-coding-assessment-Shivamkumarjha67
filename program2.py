@@ -17,7 +17,7 @@ class Solution(object):
             'M': 1000
         }
 
-        size = len(s)
+        itr = len(s)
         last = roman_map[s[size-1]]
         total = 0
 

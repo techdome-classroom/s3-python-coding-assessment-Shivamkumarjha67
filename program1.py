@@ -28,7 +28,7 @@ class Solution(object):
             stack.pop()
             return True
 
-        return False
+        return False
 
 
 
